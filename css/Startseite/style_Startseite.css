@@ -1,0 +1,114 @@
+body {
+    background-color:#70C0FF;
+    /*Hintergrundfarbe der ganzen Seite*/
+}
+h1 {
+    font-family:sans-serif;
+    /*Schrifttyp*/
+    font-size:4em;
+    /*Größe der Buchstaben*/
+    text-align:center;
+    /*Zentriert den Text*/
+    color:#40EED0;
+    /*Farbe der Schrift*/
+    background-color:#110015;
+    /*Hintergrundfarbe*/
+    margin-top:0.5em;
+    /*Setzt die Überschrift nach weiter unten*/
+}
+h2 {
+    font-family:sans-serif;
+    /*Schrifttyp*/
+    font-size:1.8em;
+    /*Groeße_der_Buchstaben*/
+    text-align:center;
+    /*Zentriert_den Text*/
+    color:#110015;
+    /*Textfarbe*/
+    margin-top:-1.2em;
+    /*Setzt_das_Element_nach_oben*/
+    text-decoration:underline;
+    text-weight:bold;
+}
+h3 {
+    font-size:2.5em;
+    /*Textgroeße*/
+    font-family:arial;
+    /*Textgroeße*/
+    text-decoration:underline;
+    /*Unterstrichen*/
+}
+li {
+    font-family:sans-serif;
+    /*Texttyp*/
+    font-size:1.05em
+    /*Textgröße*/
+}
+p {
+    font-family:Helvetica;
+    /*Texttyp*/
+    font-size:1.5em;
+    /*Textgröße*/
+    color:#000000;
+    /*Textfarbe*/
+}
+img {
+    border: 0.5em solid #000000;
+    /*Schwarzerrand um Bild*/
+}
+td {
+    font-weight:bold;
+    /*Setzt Text auf Fett*/
+    font-family:arial;
+    /*Srifttyp*/
+    font-size:1.2em;
+    /*Textgröße*/
+    background-color:#70FFA0;
+    /*Hintergrundfarbe*/
+    margin-right:65em;
+    /*Begrenzt die Hintergrundfarbe und die Umrandung*/
+    margin-top:-1em;
+    /*Setzt Liste näher an die Überschrift*/
+    border: 0.2em solid #000000
+    /*Umrandung um die Liste*/
+}
+hr {
+    margin-left:-0.5em;
+    /*Sorgt daf&uuml;r, dass der Strich nicht kurz vor Bildschirmrand endet*/
+    margin-right:-0.5em;
+    /*Sorgt daf&uuml;r, dass der Strich nicht kurz vor dem Rand stoppt*/
+    height:0.4em;
+    /*Höhe der Linie*/
+    background-color:#000000;
+    /*Farbe*/
+    border-style:solid;
+    /*Ersetzt noshade im hr Element*/
+}
+.Menu {
+    color:#000000;
+    /*Farbe*/
+}
+table {
+    border:1.1em;
+    /*Randbreite der Tabelle*/
+}
+.Kapitelueberschrift {
+    color:#000000;
+    /*Farbe*/
+}
+ol {
+    font-weight:bold;
+    /*Setzt Text auf Fett*/
+    font-size:1.2em;
+    /*Textgröße*/
+    background-color:#88DDFF;
+    /*Hintergrundfarbe*/
+    margin-right:65em;
+    /*Hier haben wir Pixel statt Standarteinheiten verwendet, da, bei Halbierung der Website
+    auch die Begrenzung des Menüs begrenzt wird*/
+    /*Begrenzt die Hintergrundfarbe und die Umrandung*/
+    margin-top:-1em;
+    /*Setzt Liste näher an die Überschrift*/
+    border: 0.2em solid #000000
+    /*Umrandung um die Liste*/
+}

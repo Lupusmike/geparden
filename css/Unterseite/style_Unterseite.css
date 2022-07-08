@@ -1,0 +1,141 @@
+body {
+    background-color:#70FFA0;
+    /*Hintergrundfarbe*/
+}
+h1 {
+    font-family:arial;
+    /*Schrifttyp*/
+    font-size:4.5em;
+    /*Schriftgroeße*/
+    font-weight:bold;
+    /*Setzt_Schrift_auf_Fett*/
+    text-align:center;
+    /*Zentriert_Text*/
+    background-color:#333333;
+    /*Hintergrundfarbe:_grau*/
+    color:#AAEEFF;
+    /*Schriftfarbe:_hellblau*/
+    margin-top:-0.15em;
+    /*Setzt die Überschrift höher*/
+}
+h2 {
+    font-family:arial;
+    /*Schrifttyp*/
+    font-size:3em;
+    /*Schriftgröße*/
+    text-decoration:underline;
+}
+h3 {
+    font-family:arial;
+    /*Schrifttyp*/
+    font-size:2em;
+    /*Schriftgröße*/
+}
+img {
+    border:0.4em solid #000000;
+    /*Rand_um_Bild*/
+    margin-top:-0.2em;
+    /*Setzt_Bild_näher_an_oberes_Element*/
+}
+p {
+    font-family:Helvetica;
+    /*Texttyp*/
+    font-weight:bold;
+    /*Setzt Text auf Fett*/
+    font-size:2.2em;
+    /*Schriftgröße*/
+
+}
+#Lebensraum_text {
+/*Bezieht sich speziell auf die ID im p-Element des Lebensraum tags*/
+    font-size:1.8em;
+    /*Vergrößert die Textgröße*/
+}
+hr {
+    margin-left:-20em;
+    /*Sorgt dafür, dass Strich nicht kurz vor Bildschirmrand endet*/
+    margin-right:-20em;
+    /*Sorgt dafür, dass der Strich nicht kurz vor dem Rand stoppt*/
+}
+.Quellentext {
+/*Class beschreibt alle Texte am Ende der Seiten um sie kleiner zu machen*/
+    font-size:0.8em;
+    /*Schriftgröße*/
+}
+hr {
+/*Beschreibt alle Trennlinien*/
+    margin-left:-0.5em;
+    /*Sorgt dafür, dass der Strich nicht kurz vor Bildschirmrand endet*/
+    margin-right:-0.5em;
+    /*Sorgt dafür, dass der Strich nicht kurz vor dem Rand stoppt*/
+    height:0.4em;
+    /*Höhe(Größe) der Linie*/
+    background-color:#000000;
+    /*Farbe der Linie*/
+    /*(Hier musste ich Background-color statt color verwenden um die Farbe in CSS zu beschreiben)*/
+    border-style:solid;
+    /*Ersetzt noshade im hr Element*/
+}
+table {
+    border:1.1em;
+    /*Grenzbreite der Tabelle*/
+}
+td {
+    font-weight:bold;
+    /*Setzt Text auf Fett*/
+    font-family:arial;
+    /*Srifttyp*/
+    font-size:1.2em;
+    /*Textgröße*/
+    background-color:#70C0FF;
+    /*Hintergrundfarbe*/
+    margin-right:65em;
+    /*Begrenzt die Hintergrundfarbe und die Umrandung*/
+    margin-top:-1em;
+    /*Setzt Liste näher an die Überschrift*/
+    border: 0.2em solid #000000
+    /*Umrandung um die Liste*/
+}
+.Hauptzeile {
+    background-color:#FF6060;
+    /*Hintergrundfarbe die speziell die erste Zeile der Rekordtabelle unter den Kategorien befindet*/
+    /*Nur als Design Element*/
+}
+li {
+    font-family:arial;
+    /*Schriftfarbe*/
+    font-size:1.2em;
+    /*Schriftgröße*/
+    font-weight:bold;
+    /*Setzt Schrift auf Fett*/
+}
+.Videoquelle {
+    font-style:italic;
+    /*Kursiv*/
+    font-size:0.8em;
+    /*Schriftgröße*/
+}
+iframe {
+    border:0em;
+    /*Verhindert einen weißen Rand (Border) beim Youtubevideo-element*/
+}
+.Oberstezeile {
+    background-color:#000000;
+    /*setzt Hintergrundfarbe der zweiten Zeile der Rekordseite auf schwarz*/
+}
+ol {
+    font-weight:bold;
+    /*Setzt Text auf Fett*/
+    font-size:1.2em;
+    /*Textgröße*/
+    background-color:#88DDFF;
+    /*Hintergrundfarbe*/
+    margin-right:65em;
+    /*Hier haben wir Pixel statt Standarteinheiten verwendet, da, bei Halbierung der Website
+    auch die Begrenzung des Menüs begrenzt wird*/
+    /*Begrenzt die Hintergrundfarbe und die Umrandung*/
+    margin-top:-1em;
+    /*Setzt Liste näher an die Überschrift*/
+    border: 0.2em solid #000000
+    /*Umrandung um die Liste*/
+}
